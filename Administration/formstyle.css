@@ -1,0 +1,74 @@
+form
+{
+    margin-top: 50px;
+    transition: all 4s ease-in-out;
+}
+
+
+.form-control
+{
+    width: 400px;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid white;
+    color: #fff;
+    font-size: 18px;
+    margin-bottom: 16px;
+}
+
+
+
+
+section
+{
+    text-align: center;
+}
+
+form .submit
+{
+    background: #6445ac;
+    background: linear-gradient(90deg, rgb(82, 77, 133) 0%, rgb(27, 163, 100) 35%, rgb(77, 230, 141) 100%);
+    border-color: transparent;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    height: 40px;
+    margin-top: 20px;
+    width: 30%;
+}
+
+
+label
+{
+    color: white;
+}
+
+
+h1
+{
+    font-size: 50px;
+    letter-spacing: 2px;
+}
+
+
+
+::placeholder
+{
+    color: rgb(212, 226, 142);
+}
+
+form .submit:hover
+{
+    cursor: pointer;
+    background: linear-gradient(90deg, rgb(123, 117, 189) 0%, rgb(50, 212, 137) 35%, rgb(48, 235, 219) 100%);
+}
+
+
+.invalid
+{
+    color: rgb(233, 229, 15);
+    font-size: 20px;
+    font-weight: bold;
+}

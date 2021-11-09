@@ -1,0 +1,80 @@
+#chambre ,#pavillion
+{
+    background: none;
+    width: 400px;
+    border-radius: 5px;
+    border: 1px solid white;
+    padding: 5px;
+    color: rgb(26, 29, 13);
+    font-size: 15px;
+}
+
+option
+{
+    color: rgb(155, 155, 87);
+}
+
+
+table
+{
+  margin: auto;
+  border-collapse: collapse;
+  margin-bottom: 25px;
+}
+
+button[type=submit]
+{
+  width: auto;
+  height: auto;
+}
+
+button
+{
+  width: 60px;
+  height: 60px;
+  border-collapse: collapse;
+  cursor: pointer;
+}
+
+button:focus
+{
+  border: 3px solid black;
+  color: white;
+}
+
+td
+{
+  width: 60px;
+  height: 60px;
+  text-align: center;
+  border: 1px solid black;
+  color: white;
+}
+
+td:hover
+{
+  opacity: 80%;
+}
+
+.col1 button
+{
+  background-color: #32CD32;
+}
+.col2 button
+{
+  background-color: #FF8C00;
+}
+.col3 button
+{
+  background-color: #FF0000;
+}
+
+caption
+{
+  border: 2px solid black;
+  font-size: 20px;
+  font-weight: bold;
+  width: 30%;
+  margin: auto;
+  border-bottom: none;
+}
